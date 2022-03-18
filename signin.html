@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="mystyle.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+</head>
+<body bgcolor="pink"<div class="header" id="header">
+<div class="top-header"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                    <i class="fa fa-home"
+                        style="font-size: 20px; color:white";> 
+						
+                   
+&nbsp;&nbsp;<span class="blink">Welcome to The Country Of Himalayas and Natural Beauty!</span>&nbsp;</i>
+
+
+<span class="log" style="font-size:20px;  float:right; "><span style="font-size:15px;color:black;">Toll Number:+977-2233-4455-7789</span>&nbsp;&nbsp;&nbsp;<a href="E:\RK19PBA05\html files\login.html" style="text-decoration:none;">Login</a> | <a href="E:\RK19PBA05\html files\signin.html" style="text-decoration:none;">Sign Up</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+</div>
+
+
+<div class="web">Nepal<span style="color:red;"><i>Railway</i></span>.Com
+<span class="secure"  style="color:black;">
+ 
+</div>
+</div>
+
+
+
+<center>
+
+
+<script>
+function FORMNEWVAL()  
+{  
+ var name = document.forms["RegForm"]["Name"];  var email = document.forms["RegForm"]["EMail"];  
+ var phone = document.forms["RegForm"]["Telephone"];   var what = document.forms["RegForm"]["Subject"];   var password = document.forms["RegForm"]["Password"];  var address = document.forms["RegForm"]["Address"];    
+ if (name.value == "")  
+ {  
+ window.alert("Please enter your name.");  
+ name.focus();  
+ return false;  
+ }  
+if (address.value == "")  
+ {  
+ window.alert("Please enter your address.");  
+ name.focus();  
+ return false;  
+ }  
+  
+ if (email.value == "")  
+ { 
+ window.alert("Please enter a valid e-mail address.");  
+ email.focus();  
+ return false;  
+ }  
+  
+ if (phone.value == "")  
+ {  
+ window.alert("Please enter your telephone number.");  
+ phone.focus();  
+ return false;  
+ }  
+  
+ if (password.value == "")  
+{  
+ window.alert("Please enter your password");  
+ password.focus();  
+ return flase;  
+ }  
+  
+ return true;  
+  
+}
+</script>
+<marquee><h1>Signin Form</h1></marquee>
+<form name="RegForm"  onsubmit="return FORMNEWVAL()"  method="post">  
+<b>Name:</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="Name"><br><br>  
+<form name="RegForm"  onsubmit="return FORMNEWVAL()"  method="post">  
+<b>Address:&nbsp;&nbsp;&nbsp;</b> <input type="text" name="Address"><br><br>  
+<form name="RegForm"  onsubmit="return FORMNEWVAL()"  method="post"> 
+<b>Email:</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="email" name="EMail"><br><br>  
+<form name="RegForm" onsubmit="return FORMNEWVAL()"  method="post">  
+<b>Telephone: </b><input type="number" name="Telephone"><br><br>  
+<form name="RegForm"  onsubmit="return FORMNEWVAL()"  method="post">  
+<b>Password:</b> &nbsp;&nbsp;<input type="email" name="Password"><br><br> 
+
+ <input type="submit" value="Submit">
+
+
+<center>
+</body>
+</html>

@@ -1,0 +1,125 @@
+.top-header{
+	background:#46be85;
+    color:#0f52BA;
+    padding:10px 10px;
+}
+
+.web{
+	
+	 padding:20px 20px;
+	 font-size:20px;
+}
+.secure{
+	float:right;
+}
+
+
+.list{
+float:right;
+background:orchid;
+}
+.list ul{
+display:flex;
+}
+.list ul li{
+	display :inline-block;
+	list-style-type:none;
+}
+.list ul li a{
+	display:block;
+	padding:2px 18px;
+	text-transform:uppercase;
+    text-decoration:none;
+     color:yellow;
+}
+.list ul li a:hover{
+color:blue;
+font-size:30px;}
+	
+.imgtxt{
+	float:left;
+position:absolute;
+bottom:-90px;
+left:150px;
+font-size:30px;
+color:pink;
+	
+	 
+}
+.tex1{
+	float:left;
+	position:absolute;
+	left:130px;
+	font-size:20px;
+	color:green;
+	
+}
+
+
+
+.tex2{
+	float:right;
+	color:green;
+	font-size:20px;
+	position:absolute;
+	right:100px;
+	bottom:-450px;
+}
+
+.btn{ 
+ float:right;
+
+ position:absolute;
+ right:370px;
+ bottom:-500px;
+  background-color:green;
+
+ border: none;
+  color: white;
+  padding: 4px 4px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+ 
+  
+  }
+  
+ 
+.route1{
+	float:right;
+	font-size:20px;
+	position:absolute;
+	color:black;
+	right:200px;
+	
+	
+}
+.route2{
+	float:right;
+	font-size:20px;
+	color:purple;
+	position:absolute;
+	right:1000px;
+}
+.route3{
+	float:right;
+	font-size:20px;
+	color:blue;
+	position:absolute;
+	right:600px;
+}
+ 
+.blink{
+animation:blinker 1s linear infinite;
+}
+@keyframes blinker{
+50%{opacity:0;}
+
+
+
+
+
+
